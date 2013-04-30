@@ -37,6 +37,6 @@ $ git config git2pivotal.postscript "%nhttps://github.com/MyAccount/myrepos/comm
 
 もし対象になるプロジェクトが違う場合は自前に config を書き換えておかないといけないので注意。
 ### 2. 好きな方法で git2pivotal を呼び出す
-  * git2pivotal を手動で起動する
+  * 適当なディテクトリにパスを通して `git config alias.g2p '!git2pivotal-windows-386'` みたいにする
   * post-commit フックで呼ぶ
   * など
